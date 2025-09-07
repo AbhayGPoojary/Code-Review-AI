@@ -2,6 +2,16 @@
 
 This project is an AI-powered code review tool that allows developers to input code and receive detailed feedback on its quality, performance, and maintainability. It consists of a **frontend** built with React and Vite and a **backend** powered by Node.js and Express, integrated with Google's Gemini AI for code analysis.
 
+## Live Demo
+Frontend deployed here: [AI Code Reviewer](https://code-review-ai-omega.vercel.app/)
+
+---
+
+## Screenshot
+![App Screenshot](./assets/screenshot.png)
+
+---
+
 ## Features
 
 - **Code Editor**: Write or paste your code directly into the editor.
@@ -116,6 +126,3 @@ build/
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
