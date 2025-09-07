@@ -31,7 +31,8 @@ console.log(result);`);
     setIsLoading(true);
     
     try {
-      const response = await axios.post('http://localhost:3000/ai/get-review', { code });
+      const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+      const response = await axios.post(`${apiUrl}/ai/get-review`, { code });
       setReview(response.data);
     } catch (error) {
       setReview('## Error\n\nFailed to get code review. Please check your connection and try again.');
